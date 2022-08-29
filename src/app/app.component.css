@@ -1,0 +1,55 @@
+.main-heading {
+  font-family: "oswald-bold", Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.bar {
+  margin-left: 10px;
+  height: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+/*Responsive Styles*/
+@media (max-width:400px) {
+  .bar {
+    width: 320px;
+  }
+  .main-heading {
+    font-family: "oswald-bold", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media(max-width: 320px){ 
+  .bar {
+    width: 230px;
+  }
+  .main-heading {
+    font-family: "oswald-bold", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width:320px) and (max-width: 400px) {
+  .bar {
+    width: 320px;
+  }
+  .main-heading {
+    font-family: "oswald-bold", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

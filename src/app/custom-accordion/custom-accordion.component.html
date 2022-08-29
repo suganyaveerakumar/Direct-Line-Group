@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="main-accordion">
+    <div *ngFor="let arrayItem of questions; let i = index">
+      <button id="accordion" class="accordion" (click)="toggleAccordion($event, i)"
+      role="button">
+        Q{{ arrayItem.id }}
+        <span class="question-class">{{ arrayItem.question }}</span>
+        <span class="box-image"></span>
+        <span class="plus-icon" aria-expanded="true"></span>
+      </button>
+        <div class="panel changeIcon"  hide="!arrayItem.isActive">
+          {{ arrayItem.answer }}
+        </div>
+      <hr class="hr-line" />
+    </div>
+  </div>
+</div>

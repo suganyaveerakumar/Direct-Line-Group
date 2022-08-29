@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test-project';
+  mainHeader = 'HAVE A QUESTION? WE CAN HELP';
 }
